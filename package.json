@@ -1,0 +1,21 @@
+{
+  "name": "breather",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A quiet corner inside monday.com: thank a colleague, take five minutes.",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 8311"
+  },
+  "dependencies": {
+    "monday-sdk-js": "^0.5.5",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "vite": "^5.4.2"
+  }
+}
